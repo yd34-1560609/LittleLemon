@@ -8,4 +8,4 @@ class MenuViewTest(TestCase):
     def test_getall(self):
         items = Menu.objects.all()
         for item in items: 
-            self.assertEqual(str(item), "AAAA : 99")
+            self.assertEqual(str(item), "AAAA : 99") 
